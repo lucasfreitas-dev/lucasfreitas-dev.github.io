@@ -2,32 +2,32 @@ import emailjs from "emailjs-com";
 import { useState } from "react";
 const ContactForm = () => {
   const [mailData, setMailData] = useState({
-    name: "",
-    email: "",
+    from_name: "",
+    reply_to: "",
     message: "",
   });
-  const { name, email, message } = mailData;
+  const { from_name, reply_to, message } = mailData;
   const [error, setError] = useState(null);
   const onChange = (e) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
   const onSubmit = (e) => {
     e.preventDefault();
-    if (name.length === 0 || email.length === 0 || message.length === 0) {
+    if (from_name.length === 0 || reply_to.length === 0 || message.length === 0) {
       setError(true);
       clearError();
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_2xjhd2l", // service id
+          "template_gxvyilw", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "4j28nFAuVWnDbxold" // public api
         )
         .then(
           (response) => {
             setError(false);
             clearError();
-            setMailData({ name: "", email: "", message: "" });
+            setMailData({ from_name: "", reply_to: "", message: "" });
           },
           (err) => {
             console.log(err.text);
@@ -62,20 +62,20 @@ const ContactForm = () => {
           <ul className="list-none">
             <li className="w-full mb-[30px] float-left">
               <input
-                name="name"
+                name="from_name"
                 onChange={(e) => onChange(e)}
-                value={name}
-                id="name"
+                value={from_name}
+                id="from_name"
                 type="text"
                 placeholder="Name"
               />
             </li>
             <li className="w-full mb-[30px] float-left">
               <input
-                name="email"
+                name="reply_to"
                 onChange={(e) => onChange(e)}
-                value={email}
-                id="email"
+                value={reply_to}
+                id="reply_to"
                 type="email"
                 placeholder="Email"
               />
@@ -94,7 +94,6 @@ const ContactForm = () => {
         <div className="tokyo_tm_button" data-position="left">
           <button type="submit">Send Message</button>
         </div>
-        {/* If you want to change mail address to yours, please open modal.php and go to line 4 */}
       </form>
     </div>
   );
