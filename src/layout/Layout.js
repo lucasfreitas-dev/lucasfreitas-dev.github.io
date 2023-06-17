@@ -8,11 +8,8 @@ import ImageView from "components/popup/ImageView";
 import MediaPopup from "components/popup/MediaPopup";
 import NewsModal from "components/popup/NewsModal";
 import ServiceModal from "components/popup/ServiceModal";
-import dynamic from "next/dynamic";
 import { Fragment, useContext, useEffect } from "react";
-const Portfolio = dynamic(() => import("components/Portfolio"), {
-  ssr: false,
-});
+
 const Layout = ({ children }) => {
   useEffect(() => {
     tokyo.dataImage();

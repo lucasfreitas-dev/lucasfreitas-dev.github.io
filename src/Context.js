@@ -32,10 +32,7 @@ const initialState = {
   menus: [
     { id: 1, name: "Home", href: "home" },
     { id: 2, name: "about", href: "about" },
-    { id: 3, name: "service", href: "service" },
-    { id: 4, name: "portfolio", href: "portfolio" },
-    { id: 5, name: "news", href: "news" },
-    { id: 6, name: "contact", href: "contact" },
+    { id: 3, name: "contact", href: "contact" }
   ],
 };
 
@@ -57,21 +54,6 @@ const reducer = (state, action) => {
       return {
         ...state,
         modal: payload,
-      };
-    case SERVICEMODAL:
-      return {
-        ...state,
-        serviceModal: payload,
-      };
-    case NEWSMODAL:
-      return {
-        ...state,
-        newsModal: payload,
-      };
-    case PORTFOLIODETAILSMODAL:
-      return {
-        ...state,
-        portfolioDetailsModal: payload,
       };
     default:
       return state;

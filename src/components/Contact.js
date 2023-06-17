@@ -1,7 +1,7 @@
 import SectionContainer from "./SectionContainer";
 import SectionTitle from "./SectionTitle";
 import ContactForm from "./contact/ContactForm";
-import Map from "./contact/Map";
+
 const Contact = () => {
   return (
     <SectionContainer name={"contact"}>
@@ -12,7 +12,6 @@ const Contact = () => {
               <SectionTitle pageName={"Contact"} title={"Get in Touch"} />
             </div>
           </div>
-          <Map />
           <ContactForm />
         </div>
       </div>
