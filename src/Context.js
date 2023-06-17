@@ -31,7 +31,7 @@ const initialState = {
   portfolioDetailsModal: null,
   menus: [
     { id: 1, name: "Home", href: "home" },
-    { id: 2, name: "about", href: "about" },
+    // { id: 2, name: "about", href: "about" },
     { id: 3, name: "contact", href: "contact" }
   ],
 };
