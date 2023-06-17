@@ -23,7 +23,7 @@ export default function Document() {
         <link rel="stylesheet" href="assets/css/plugins.css" />
         <link rel="stylesheet" href="assets/css/custom.css" />
         <link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="shortcut icon" href="assets/img/icons/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
         <title>Lucas Freitas</title>
       </Head>
       <body>
