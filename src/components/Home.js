@@ -38,8 +38,8 @@ const Home = () => {
                 Lucas <span>Freitas</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                Hello! My name is Lucas Freitas. I have been working with IT for 9 years now. <br/><br/>
-                I`m curently working as Tech Lead at Hurb.<br/>      
+                Hello! I'm Lucas Freitas. I have been working in IT for 9 years now. <br/><br/>
+                I currently work as a Tech Lead at Hurb - one leading Brazilian on-line travel agency.<br/>      
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
