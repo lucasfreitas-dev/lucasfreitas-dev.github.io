@@ -39,7 +39,7 @@ const Home = () => {
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
                 Hello! I'm Lucas Freitas. I have been working in IT for 9 years now. <br/><br/>
-                I currently work as a Tech Lead at Hurb - a leading Brazilian on-line travel agency.<br/>      
+                I currently work as a Senior Software Engineer at Gympass.<br/>      
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
