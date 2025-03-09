@@ -2,14 +2,14 @@
 
 export const GLOBAL = {
   // Site metadata
-  username: "Zaggonaut",
-  rootUrl: "https://zaggonaut.dev",
-  shortDescription: "Retro-Inspired Theme &<br /> Built for Astro",
-  longDescription: "Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.",
+  username: "Lucas Freitas",
+  rootUrl: "https://lucasfreitas.dev.br",
+  shortDescription: "Software Engineer, and Hobby Collector",
+  longDescription: "",
   
   // Social media links
-  githubProfile: "https://github.com/RATIU5/zaggonaut",
-  twitterProfile: "https://twitter.com/",
+  githubProfile: "https://github.com/lucasfreitas-dev",
+  twitterProfile: "https://twitter.com/barranull",
   
   // Common text names used throughout the site
   articlesName: "Articles",
@@ -22,7 +22,7 @@ export const GLOBAL = {
 
   // Blog metadata
   blogTitle: "My Thoughts & Takes",
-  blogShortDescription: "Practical wisdom, unfiltered thoughts, and hot takes.",
+  blogShortDescription: "Personal notes about anything and everything.",
   blogLongDescription: "Web development, tech trends, and the occasional programming mishap.",
 
   // Project metadata
@@ -31,12 +31,12 @@ export const GLOBAL = {
   projectLongDescription: "All of my projects, including both frontend and full-stack applications.",
 
   // Profile image
-  profileImage: "michael-dam-unsplash.webp",
+  profileImage: "avatar.jpeg",
 
   // Menu items
   menu: {
     home: "/",
-    projects: "/projects",
+    // projects: "/projects",
     blog: "/blog",
   }
 };
