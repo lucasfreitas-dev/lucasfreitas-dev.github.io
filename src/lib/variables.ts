@@ -4,7 +4,7 @@ export const GLOBAL = {
   // Site metadata
   username: "Lucas Freitas",
   rootUrl: "https://lucasfreitas.dev.br",
-  shortDescription: "Software Engineer, and Hobby Collector",
+  shortDescription: "Software Engineer, and Hobbies Collector",
   longDescription: "",
   
   // Social media links
